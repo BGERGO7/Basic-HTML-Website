@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A Basic HTML website for learning frontend developement">
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh" />
+    <meta name="author" content="Bukki Gergely" />
+    <title>Basic HTML Website - Contact</title>
+</head>
+<body>
+    <header>
+        <table width="100%">
+            <tr>
+                <td>Bukki Gergely</td>
+                <td align="right">
+                    <nav>
+                        <a href="index.html">Home</a> /
+                        <a href="projects.html">Projects</a> /
+                        <a href="articles.html">Articles</a> / 
+                        <a href="contact.html">Contact</a>
+                    </nav>
+                </td>
+            </tr>
+        </table>
+        
+        <h1 align="center">Contact Me</h1>
+    
+        <br><br><br>
+    </header>
+
+    <main>
+        <form action="https://httpbin.org/get" method="get">
+            <p>
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" id="firstName" placeholder="Jane" required>
+            </p>
+            <p>
+                <label for="lastName">Last Name</label>
+                <input type="text" name="lastName" id="lastName"  placeholder="Doe" required>
+            </p>
+            
+            <p>
+                <label for="msg">Message:</label>
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Type your message here" required></textarea>
+            </p>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p align="center">&copy; all rights reserved 2025</p>
+    </footer>
+</body>
+</html>
